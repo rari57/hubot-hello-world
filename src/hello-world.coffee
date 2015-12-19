@@ -1,15 +1,15 @@
 # Description
-#   A Hubot script that responds 'World!'
+#   A Hubot script that responds 'Ç®ÇÕÇ”Ç≥Å['
 #
 # Configuration:
 #   None
 #
 # Commands:
-#   hubot hello - responds 'World!'
+#   hubot hello - responds 'Ç®ÇÕÇ”Ç≥Å['
 #
 # Author:
 #   bouzuya <m@bouzuya.net>
 
 module.exports = (robot) ->
   robot.respond /hello/i, (msg) ->
-    msg.send 'World!'
+    msg.send "Ç®ÇÕÇ”Ç≥Å["
